@@ -138,9 +138,9 @@ const projects = () => {
                 title="This Portfolio"
                 tech="Tech Stack: JavaScript, NextJS, TailwindCSS, Framer Motion"
                 img={Proj2}
-                link="https://akshat-jangir.vercel.app/"
+                link="https://portfolio-website-mu-fawn-27.vercel.app/"
                 summary="A Portfolio to showcase my projects."
-                github="https://github.com/Akshat171/Portfolio_updated"
+                github="https://github.com/suyashagrahari/Portfolio-website"
                 type="Featured project"
               />
             </div>
