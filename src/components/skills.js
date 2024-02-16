@@ -18,7 +18,7 @@ export default function Skills() {
         {skills.map((skill, index) => {
           const Icon = skill.Icon;
           return (
-            <div className="card wallet ">
+            <div key={index} className="card wallet ">
             <div className="overlay "></div>
             <div className="circle   ">
             <Icon className="h-10 w-10 darok "/>
