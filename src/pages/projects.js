@@ -128,8 +128,8 @@ const projects = () => {
                 tech="Tech Stack: ReactJs, Tailwind Css, Redux, NodeJs, ExpressJs, MongoDb, Rest Api, NodeMailer, Multer, JWT Authentication, Bcrypt."
                 img={Proj1}
                 summary=" Developed a full-stack college outpass system using the MERN stack. The system allows students to request permission to leave campus and includes features such as user authentication, permission requests, and approval notifications."
-                link="https://github.com/suyashagrahari/CollegeOutpass_clientside"
-                github="https://github.com/suyashagrahari/CollegeOutpass_clientside"
+                link="https://outpass-rddhzt82u-suyash-agraharis-projects.vercel.app/"
+                github="https://github.com/suyashagrahari/Outpass"
                 type="Featured project"
               />
             </div>
