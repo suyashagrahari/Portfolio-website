@@ -43,7 +43,7 @@ const Education = () => {
         />
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2 ">
           <Details
-            type="Bechelor of Technology"
+            type="Bachelor of Technology"
             place="LNM Institute of Information & Technology"
             time="Oct'2020-Present"
             info="Jaipur, Rajasthan"

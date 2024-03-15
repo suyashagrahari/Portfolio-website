@@ -39,9 +39,7 @@
     background: var(--bg-color);
   }
   
-  .card:hover .circle:after {
-    background: black;
-  }
+  
   
   .card:hover p {
     color: var(--text-color-hover);
