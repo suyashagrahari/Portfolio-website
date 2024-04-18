@@ -27,7 +27,7 @@ const about = () => {
                 Hi, I am Suyash.
               </p>
               <p className=" font-medium">
-               Full-stack engineer with expertise in developing robust web applications using MERN stack, leveraging technologies like Next.js and GraphQL. Experienced in modern DevOps practices, including Docker containerization, Jenkins for CI/CD automation, Redis caching, and Nginx for application delivery. Proficient in Git version control for efficient collaboration. Skilled at architecting scalable, cloud-based systems on AWS, utilizing infrastructure-as-code and automation best practices. Passionate about building high-performing, resilient, and user-centric products through collaborative efforts focused on innovation and continuous improvement.
+               Full-stack engineer with expertise in developing robust web applications using MERN stack, leveraging technologies like Next.js and GraphQL. Experienced in modern DevOps practices, including Docker containerization, Kubernetes, Jenkins for CI/CD automation, Redis caching, Kafka and Nginx for application delivery. Proficient in Git version control for efficient collaboration. Skilled at architecting scalable, cloud-based systems on AWS, utilizing infrastructure-as-code and automation best practices. Passionate about building high-performing, resilient, and user-centric products through collaborative efforts focused on innovation and continuous improvement.
               </p>
               <p className=" font-medium my-3">
                 I can help you build your next dream project.

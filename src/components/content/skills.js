@@ -23,6 +23,8 @@ import {
   SiAmazonaws,
   SiRedis,
   SiNginx,
+  SiKubernetes,
+  SiApachekafka
 
 } from "react-icons/si";
 
@@ -91,6 +93,10 @@ const skills = [
     name: "Docker",
     Icon: SiDocker,
   },{
+    name: "Kubernetes",
+    Icon: SiKubernetes,
+  },
+  ,{
     name: "Jenkins",
     Icon: SiJenkins,
   },{
@@ -102,6 +108,10 @@ const skills = [
   },{
     name: "Nginx",
     Icon: SiNginx,
+  },
+  {
+    name: "Kafka",
+    Icon: SiApachekafka,
   },
   {
     name: "C Programming",

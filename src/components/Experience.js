@@ -77,7 +77,7 @@ const Experience = () => {
             company="Health Umbrella Foundation"
             time ="August'2022 - July'2023"
             address="Remote"
-            work = "As a MERN developer at Health Umbrella Foundation, I leverage my expertise in MongoDB, Express, React, and Node.js to develop and maintain web applications that support the organization's mission in the healthcare sector. My primary responsibility is to create efficient and user-friendly solutions that improve access to healthcare services for our users and stakeholders."
+            work = "As a MERN developer at Health Umbrella Foundation, I specialize in MongoDB, Express, React, and Node.js to create user-friendly web applications for the healthcare sector. I focus on improving security by addressing vulnerabilities like XSS, CSRF attacks, query injections, and DDoS attacks. Additionally, I optimize website performance using techniques such as React's useMemo, useCallback hooks, and code splitting, ensuring fast load times and smooth user experiences."
             tech="Tech: ReactJs, Tailwind CSS, Redux Toolkit, NodeJs, ExpressJs, MongoDB, REST API."
             companyLink="#"
             certificate="certificate"

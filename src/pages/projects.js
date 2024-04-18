@@ -12,6 +12,7 @@ import Proj4 from "../../public/images/projects/proj4.png";
 import Proj5 from "../../public/images/projects/proj5.png";
 import Proj6 from "../../public/images/projects/proj6.png";
 import Proj7 from "../../public/images/projects/proj7.png";
+import Proj8 from "../../public/images/projects/proj8.png";
 import Transition from "@/components/Transition";
 
 const FeaturedProject = ({ type, tech, title, summary, img, link, github }) => {
@@ -164,7 +165,17 @@ const projects = () => {
                 type="Featured project"
               />
             </div>
-
+            <div className="col-span-12 md:col-span-12">
+              <FeaturedProject
+                title="Tongue-Twist"
+                img={Proj8}
+                tech="Tech Stack: TypeScript, ReactJs, Material Ui, Redux Toolkit, REST API"
+                summary="Tongue-Twist is a language learning app with cutting-edge text-to-speech capability. Users become immersed in language through audio-based learning, which is followed by interactive examinations to determine mastery. Tongue-Twist makes it easy for users to learn new languages and track their skills."
+                link="https://tongue-twist.vercel.app/"
+                github="https://github.com/suyashagrahari/TongueTwist/tree/main"
+                type="Featured project"
+              />
+            </div>
             <div className="col-span-6 md:col-span-12">
               <Project
                 title="Weather Mate"
