@@ -24,8 +24,8 @@ const about = () => {
               </h2>
               {/* <p className=" font-medium"> Hi, I am Suyash.</p> */}
               <p className=" font-medium">
-                Hi, I'm Suyash, a dedicated Full Stack Developer with a strong
-                foundation in both frontend and backend technologies. I
+                Hi, I&apos;m Suyash, a dedicated Full Stack Developer with a
+                strong foundation in both frontend and backend technologies. I
                 specialize in creating seamless, scalable web applications using
                 modern frameworks and technologies. My frontend expertise
                 includes HTML, CSS, JavaScript, React, Redux Toolkit,
@@ -34,9 +34,9 @@ const about = () => {
                 <br />
                 <br />
                 On the backend, I work with Node.js, Express.js, REST APIs,
-                GraphQL, and databases like MongoDB, SQL, and PostgreSQL. I'm
-                also well-versed in database sharding and replication to ensure
-                optimized performance and reliability at scale.
+                GraphQL, and databases like MongoDB, SQL, and PostgreSQL.
+                I&apos;m also well-versed in database sharding and replication
+                to ensure optimized performance and reliability at scale.
                 <br />
                 <br />I have hands-on experience in developing AI-enhanced
                 tools, including AI-powered resume builders and content
@@ -54,8 +54,8 @@ const about = () => {
                 <br />
                 <br />
                 I’m driven by a passion for innovative problem-solving, whether
-                it's optimizing web performance or designing solutions that can
-                scale effortlessly.
+                it&apos;s optimizing web performance or designing solutions that
+                can scale effortlessly.
               </p>
               <p className=" font-medium my-3">
                 I can help you build your next dream project.
