@@ -6,14 +6,12 @@ const Details = ({ type, time, place, info }) => {
   return (
     <li
       ref={ref}
-      className="my-8 first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col items-center justify-between  md:w-[80%]"
-    >
+      className="my-8 first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col items-center justify-between  md:w-[80%]">
       <LiIcon reference={ref} />
       <motion.div
         initial={{ y: 50 }}
         whileInView={{ y: 0 }}
-        transition={{ duration: 1.5, type: "spring" }}
-      >
+        transition={{ duration: 1.5, type: "spring" }}>
         <h3 className="capitalize font-bold text-2xl sm:text-xl xs:text-lg ">
           {type}&nbsp;{" "}
         </h3>
@@ -45,7 +43,7 @@ const Education = () => {
           <Details
             type="Bachelor of Technology"
             place="LNM Institute of Information & Technology"
-            time="Oct'2020-Present"
+            time="Oct'2020-May'2024"
             info="Jaipur, Rajasthan"
           />
         </ul>

@@ -14,7 +14,11 @@ import Proj6 from "../../public/images/projects/proj6.png";
 import Proj7 from "../../public/images/projects/proj7.png";
 import Proj8 from "../../public/images/projects/proj8.png";
 import Transition from "@/components/Transition";
-
+import resumeBuilder from "../../public/images/projects/resumeBuilder.png";
+import ytmp4 from "../../public/images/projects/ytmp4.png";
+import ytmp3 from "../../public/images/projects/ytmp3.png";
+import resumeParser from "../../public/images/projects/resumeParser.png";
+import aiDetector from "../../public/images/projects/ai-detector.png";
 const FeaturedProject = ({ type, tech, title, summary, img, link, github }) => {
   return (
     <article className="w-full flex item-center relative rounded-br-2xl justify-between rounded-3xl border border-solid border-dark bg-light shadow-2xl p-12 dark:bg-dark dark:border-light lg:flex-col lg:p-8 xs:rounded-2xl xs:rounded-br-3xl xs:p-4">
@@ -118,6 +122,53 @@ const projects = () => {
       <main className="w-full mb-16 flex flex-col items-center justify-center dark:text-light">
         <Layout className="pt-16">
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
+            <div className="col-span-12">
+              <FeaturedProject
+                title="AI-powered Resume Builder"
+                tech="Tech Stack: ReactJs, Tailwind CSS, Redux, NodeJs, ExpressJs, MongoDB, Rest API, OpenAI API, JWT Authentication, Bcrypt."
+                img={resumeBuilder} // Assuming you have an image for this project
+                summary="Developed an advanced AI-powered resume builder that streamlines the resume creation process. The tool leverages AI to suggest ATS-compliant content, including professional experiences, skills, and summaries tailored to each user. It features live preview functionality, allowing users to view updates in real-time. Additionally, the system includes a powerful resume parsing feature: users can upload an existing resume, and the tool automatically extracts key details to prefill customizable templates, significantly speeding up the resume creation process. Completed and deployed within 21 days."
+                link="https://www.hirequotient.com/ai-resume-builder" // Your live link
+                github="https://www.hirequotient.com/ai-resume-builder" // Your GitHub repo link
+                type="Featured project"
+              />
+            </div>
+            <div className="col-span-6 md:col-span-12">
+              <Project
+                title="AI-powered Resume Parser"
+                tech="Tech Stack: ReactJs, Tailwind CSS, NodeJs, ExpressJs, MongoDB, Rest API, Python, JWT Authentication, Bcrypt."
+                img={resumeParser} // Assuming you have an image for this project
+                summary="Developed an advanced AI-powered resume parser that enables users to upload and parse resumes in bulk based on job descriptions. The system ranks resumes according to their relevance to the job description, providing detailed filtering options based on relevance and experience. Users can easily shortlist resumes, reach out to candidates directly, and download filtered results in an Excel sheet for further processing. This tool significantly streamlines the hiring process, making it easier for recruiters to find the most suitable candidates efficiently."
+                link="https://www.hirequotient.com/resume-parser" // Your live link
+                github="https://www.hirequotient.com/resume-parser" // Your GitHub repo link
+                type="Featured project"
+              />
+            </div>
+
+            <div className="col-span-6 md:col-span-12">
+              <Project
+                title="AI Detector Tool"
+                tech="Tech Stack: ReactJs, Tailwind CSS, NodeJs, ExpressJs, MongoDB, Rest API, Python, GPT-3/4 API, Chrome Extension, Telegram Bot."
+                img={aiDetector} // Assuming you have an image for this project
+                summary="Developed an advanced AI Detector Tool that enables users to upload files in various formats such as PNG, JPEG, DOCX, PDF, and plain text to detect AI-generated content. The tool provides detailed analysis, offering insights on content originality and authenticity. Users can generate comprehensive reports in PDF format based on the analysis. Additionally, the tool is available as a Chrome extension and Telegram bot, making it easily accessible for real-time content detection across platforms."
+                link="https://www.hirequotient.com/ai-detector" // Your live link
+                github="https://www.hirequotient.com/ai-detector" // Your GitHub repo link
+                type="Featured project"
+              />
+            </div>
+
+            <div className="col-span-12">
+              <FeaturedProject
+                title="YouTube Video Downloader"
+                tech="Tech Stack: ReactJs, Tailwind CSS, NodeJs, ExpressJs, MongoDB, Rest API, yt-dlp, JWT Authentication, Bcrypt."
+                img={ytmp4} // Assuming you have an image for this project
+                summary="Developed a highly efficient YouTube video downloader using the yt-dlp package and the MERN stack. This tool enables users to download videos in various formats and qualities directly from YouTube, with an intuitive and user-friendly interface. By implementing this feature on HireQuotient's platform, organic traffic skyrocketed from 40K to 800K monthly visitors, significantly enhancing user engagement. The tool currently ranks #5 on Google for relevant search queries, contributing to its success and visibility. The downloader's integration improved site performance, security, and scalability, making it a key driver of growth for the company."
+                link="https://www.hirequotient.com/youtube-video-downloader" // Your live link
+                github="https://www.hirequotient.com/youtube-video-downloader" // Your GitHub repo link
+                type="Featured project"
+              />
+            </div>
+
             <div className="col-span-12">
               <FeaturedProject
                 title="College Outpass"

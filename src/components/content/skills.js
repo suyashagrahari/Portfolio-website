@@ -12,7 +12,6 @@ import {
   SiSupabase,
   SiNodedotjs,
   SiRedux,
-  SiPostgresql,
   SiMongodb,
   SiGithub,
   SiExpress,
@@ -24,8 +23,11 @@ import {
   SiRedis,
   SiNginx,
   SiKubernetes,
-  SiApachekafka
-
+  SiApachekafka,
+  SiAngular,
+  SiSocketdotio,
+  SiPostgresql,
+  SiBootstrap,
 } from "react-icons/si";
 
 const skills = [
@@ -62,6 +64,10 @@ const skills = [
     Icon: SiTailwindcss,
   },
   {
+    name: "Bootstrap",
+    Icon: SiBootstrap,
+  },
+  {
     name: "Node.js",
     Icon: SiNodedotjs,
   },
@@ -82,6 +88,14 @@ const skills = [
     Icon: SiMysql,
   },
   {
+    name: "PostgreSQL",
+    Icon: SiPostgresql,
+  },
+  {
+    name: "Socket.io",
+    Icon: SiSocketdotio,
+  },
+  {
     name: "Git",
     Icon: SiGit,
   },
@@ -92,20 +106,25 @@ const skills = [
   {
     name: "Docker",
     Icon: SiDocker,
-  },{
+  },
+  {
     name: "Kubernetes",
     Icon: SiKubernetes,
   },
-  ,{
+  ,
+  {
     name: "Jenkins",
     Icon: SiJenkins,
-  },{
+  },
+  {
     name: "Aws",
     Icon: SiAmazonaws,
-  },{
+  },
+  {
     name: "Redis",
     Icon: SiRedis,
-  },{
+  },
+  {
     name: "Nginx",
     Icon: SiNginx,
   },
@@ -114,12 +133,20 @@ const skills = [
     Icon: SiApachekafka,
   },
   {
-    name: "C Programming",
+    name: "C",
     Icon: SiC,
   },
   {
     name: "C++",
     Icon: SiCplusplus,
+  },
+  {
+    name: "Angular",
+    Icon: SiAngular,
+  },
+  {
+    name: "React Native",
+    Icon: SiReact,
   },
 ];
 

@@ -39,13 +39,15 @@ export default function Home() {
             </div>
             <div className="w-1/2 flex flex-col items-center self-center lg:!w-full lg:text-center ">
               <AnimatedText
-                text="Hi, I'm Suyash, web Developer."
+                text="Hi, I'm Suyash, a passionate Web Developer."
                 className="!text-6xl !text-left xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl"
               />
               <p className="my-4 text-base  font-medium md:text-sm sm:text-xs">
-                As a web developer, I am devoted to Transforming visions into
-                reality with elegant front-end development and seamless back-end
-                integration.
+                I turn creative ideas into reality with responsive front-end
+                designs and scalable solutions. I focus on building efficient
+                systems that handle increasing demands seamlessly, ensuring high
+                performance and reliability across both front-end and back-end
+                development.
                 {/* As a skilled full-stack developer, I am dedicated to turning
                 ideas into innovative web applications. Explore my latest
                 projects and articles, showcasing my expertise in React.js and
@@ -53,17 +55,15 @@ export default function Home() {
               </p>
               <div className="flex items-center self-start mt-2 lg:self-center">
                 <Link
-                  href="https://drive.google.com/file/d/12GDgsLKffF76PEoXeNdu2JJp1uC9s-H3/view?usp=drive_link"
+                  href="https://drive.google.com/file/d/1qeQ91o3ZYfzdADYADAEZckEgVbpNlhNF/view?usp=sharing"
                   target={"_blank"}
                   download={true}
-                  className="flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark  border-solid border-transparent hover:border-dark border-2 dark:bg-light dark:text-dark hover:dark:bg-dark hover:dark:text-light hover:dark:border-light md:p-2 md-px-4 md:text-base "
-                >
+                  className="flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark  border-solid border-transparent hover:border-dark border-2 dark:bg-light dark:text-dark hover:dark:bg-dark hover:dark:text-light hover:dark:border-light md:p-2 md-px-4 md:text-base ">
                   Resume <LinkArrow className={"w-6 ml-1 "} />
                 </Link>
                 <Link
                   className="ml-4 text-lg font-medium capitalize text-dark underline dark:text-light md:text-base"
-                  href="mailto:suyashagrahari73@gmail.com"
-                >
+                  href="mailto:suyashagrahari2121@gmail.com">
                   Contact
                 </Link>
               </div>

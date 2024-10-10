@@ -13,23 +13,20 @@ export default function Skills() {
         whileInView="visible"
         variants={FadeContainer}
         viewport={{ once: true }}
-        className=" grid grid-cols-8 sm:grid-cols-2 xs:grid-cols-2 xs:gap-x-[8rem] xs:place-items-center place-items-center md:grid-cols-3 lg:grid-cols-4 gap-4 gap-y-10 mb-10 "
-      >
+        className=" grid grid-cols-8 sm:grid-cols-2 xs:grid-cols-2 xs:gap-x-[8rem] xs:place-items-center place-items-center md:grid-cols-3 lg:grid-cols-4 gap-4 gap-y-10 mb-10 ">
         {skills.map((skill, index) => {
           const Icon = skill.Icon;
           return (
             <div key={index} className="card wallet ">
-            <div className="overlay "></div>
-            <div className="circle   ">
-            <Icon className="h-10 w-10 darok "/>
-            </div>
-            <p className="">{skill.name}</p>
+              <div className="overlay "></div>
+              <div className="circle   ">
+                <Icon className="h-10 w-10 darok " />
+              </div>
+              <p className="">{skill.name}</p>
             </div>
           );
         })}
       </motion.div>
-
-      
     </section>
   );
 }
