@@ -14,7 +14,7 @@ import Proj6 from "../../public/images/projects/proj6.png";
 import Proj7 from "../../public/images/projects/proj7.png";
 import Proj8 from "../../public/images/projects/proj8.png";
 import Transition from "@/components/Transition";
-import resumeBuilder from "../../public/images/projects/resumeBuilder.png";
+import resumeBuilder from "../../public/images/projects/resumebuilder.png";
 import ytmp4 from "../../public/images/projects/ytmp4.png";
 import ytmp3 from "../../public/images/projects/ytmp3.png";
 import resumeParser from "../../public/images/projects/resumeParser.png";
