@@ -22,12 +22,40 @@ const about = () => {
               <h2 className="mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light ">
                 About me
               </h2>
+              {/* <p className=" font-medium"> Hi, I am Suyash.</p> */}
               <p className=" font-medium">
-                {" "}
-                Hi, I am Suyash.
-              </p>
-              <p className=" font-medium">
-               Full-stack engineer with expertise in developing robust web applications using MERN stack, leveraging technologies like Next.js and GraphQL. Experienced in modern DevOps practices, including Docker containerization, Kubernetes, Jenkins for CI/CD automation, Redis caching, Kafka and Nginx for application delivery. Proficient in Git version control for efficient collaboration. Skilled at architecting scalable, cloud-based systems on AWS, utilizing infrastructure-as-code and automation best practices. Passionate about building high-performing, resilient, and user-centric products through collaborative efforts focused on innovation and continuous improvement.
+                Hi, I'm Suyash, a dedicated Full Stack Developer with a strong
+                foundation in both frontend and backend technologies. I
+                specialize in creating seamless, scalable web applications using
+                modern frameworks and technologies. My frontend expertise
+                includes HTML, CSS, JavaScript, React, Redux Toolkit,
+                TypeScript, Bootstrap, and Tailwind CSS, enabling me to design
+                responsive and user-friendly interfaces.
+                <br />
+                <br />
+                On the backend, I work with Node.js, Express.js, REST APIs,
+                GraphQL, and databases like MongoDB, SQL, and PostgreSQL. I'm
+                also well-versed in database sharding and replication to ensure
+                optimized performance and reliability at scale.
+                <br />
+                <br />I have hands-on experience in developing AI-enhanced
+                tools, including AI-powered resume builders and content
+                detectors, leveraging GPT-3/4. My proficiency extends to CMS
+                platforms such as Strapi, along with version control using
+                Git/GitHub.
+                <br />
+                <br />
+                In terms of deployment and cloud infrastructure, I manage
+                scalable applications using Docker, Kubernetes, Jenkins CI/CD,
+                AWS services (EC2, Lambda, S3), and optimize server performance
+                with Redis, Nginx, and Kafka. I build robust, high-performance
+                systems with frameworks like Next.js, Angular, and React Native,
+                ensuring they meet the growing demands of modern applications.
+                <br />
+                <br />
+                I’m driven by a passion for innovative problem-solving, whether
+                it's optimizing web performance or designing solutions that can
+                scale effortlessly.
               </p>
               <p className=" font-medium my-3">
                 I can help you build your next dream project.
@@ -46,11 +74,10 @@ const about = () => {
               />
             </div>
           </div>
-          
+
           <Experience />
           <Education />
           <Skills />
-          
         </Layout>
       </main>
     </>
